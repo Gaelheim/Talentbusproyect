@@ -66,7 +66,7 @@ namespace CapaDatos
         }
 
         //metodo para eliminar los datos de nuestra base de datos
-        public void EliminarPosicion(string id)
+        public void EliminarPosicion(int id)
         {
             SqlCommand comando = new SqlCommand();
             comando.Connection = conexion.AbrirConexion();

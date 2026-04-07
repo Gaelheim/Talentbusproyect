@@ -24,7 +24,7 @@ namespace CapaNegocios
             objetoCD.EditarDpto(id, nombre);
         }
 
-        public void EliminarDpto(string id)
+        public void EliminarDpto(int id)
         {
             objetoCD.EliminarDpto(id);
         }

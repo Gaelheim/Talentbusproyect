@@ -26,7 +26,7 @@ namespace CapaNegocios
         {
             objetoCD.EditarDeduccion(Id, Nombre, Porcentaje, Descripcion);
         }
-        public void EliminarDeduccion(string Id)
+        public void EliminarDeduccion(int Id)
         {
             objetoCD.EliminarDeduccion(Id);
         }

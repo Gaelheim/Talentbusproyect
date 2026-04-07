@@ -51,7 +51,7 @@ namespace CapaDatos
             conexion.CerrarConexion();
         }
 
-        public void EliminarDeduccion(string Id)
+        public void EliminarDeduccion(int Id)
         {
             SqlCommand comando = new SqlCommand();
             comando.Connection = conexion.AbrirConexion();

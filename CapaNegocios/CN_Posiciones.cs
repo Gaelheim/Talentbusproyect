@@ -36,7 +36,7 @@ namespace CapaNegocios
             objetoCD.EditarPosicion(id, nombre, salario, idDpto);
         }
 
-        public void EliminarPosicion(string id)
+        public void EliminarPosicion(int id)
         {
             objetoCD.EliminarPosicion(id);
         }

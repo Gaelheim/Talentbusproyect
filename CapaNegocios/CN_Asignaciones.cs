@@ -29,7 +29,7 @@ namespace CapaNegocios
             objetoCD.EditarAsignacion(Id, Nombre, Porcentaje, Descripcion);
         }
 
-        public void EliminarAsignacion(string Id)
+        public void EliminarAsignacion(int Id)
         {
             objetoCD.EliminarAsignacion(Id);
         }

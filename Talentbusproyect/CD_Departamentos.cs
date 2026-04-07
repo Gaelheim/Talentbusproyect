@@ -50,7 +50,7 @@ namespace CapaDatos
         }
 
         //metodo para eliminar los datos de nuestra base de datos
-        public void EliminarDpto(string id)
+        public void EliminarDpto(int id)
         {
             SqlCommand comando = new SqlCommand();
             comando.Connection = conexion.AbrirConexion();

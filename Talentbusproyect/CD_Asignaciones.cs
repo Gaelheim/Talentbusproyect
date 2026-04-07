@@ -52,7 +52,7 @@ namespace CapaDatos
             conexion.CerrarConexion();
         }
 
-        public void EliminarAsignacion(string Id)
+        public void EliminarAsignacion(int Id)
         {
             SqlCommand comando = new SqlCommand();
             comando.Connection = conexion.AbrirConexion();
